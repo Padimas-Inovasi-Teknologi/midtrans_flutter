@@ -98,7 +98,7 @@ class _MidFlutterDemoState extends State<MidFlutterDemo> {
                   }
 
                   if (_error == "") {
-                    bool configured = await MidtransFlutter.configure(clientKey: "SB-Mid-client-StNU2Niogny-bdPT");
+                    bool configured = await MidtransFlutter.configure(clientKey: "your midtrans key");
 
                     if (configured) {
                       try {
