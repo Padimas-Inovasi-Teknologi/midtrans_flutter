@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="normal_text">#444444</color>
+    <color name="normal_text_strong">#000000</color>
+    <color name="normal_text_tertier">#969696</color>
+    <color name="hint_text">#AEAEAE</color>
+    <color name="status_bar">#292929</color>
+
+    <color name="yellow_accent">#fabe15</color>
+    <color name="yellow_banana">#fde8b1</color>
+
+    <color name="blue_deepsky">#00BFFF</color>
+    <color name="strong_blue">#2191e0</color>
+    <color name="dark_blue">#6ebce8</color>
+    <color name="vivid_blue">#12bdfc</color>
+    <color name="smoth_blue">#1499ad</color>
+    <color name="blue">#5dade2</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorNeedMobil">#353535</color>
+
+    <color name="broken_white">#F7F7F7</color>
+
+    <color name="red">#FF0000</color>
+    <color name="red_maroon">#cc0000</color>
+    <color name="strong_red">#FFD50000</color>
+
+    <color name="green">#00FF00</color>
+    <color name="smoth_green">#01cd0f</color>
+    <color name="dark_green">#54d1be</color>
+    <color name="status_green">#039618</color>
+    <color name="strong_lime_green">#06d01d</color>
+    <color name="strong_green">#0db815</color>
+
+    <color name="transparent_gray">#33BEBEBE</color>
+    <color name="white_smoke">#EBEBEB</color>
+
+    <color name="light_gray">#ECECEC</color>
+    <color name="silver_gray">#DEDEDE</color>
+    <color name="gray">#BABABA</color>
+    <color name="medium_gray">#6E6E6E</color>
+    <color name="dark_gray">#363636</color>
+    <color name="very_dark_gray">#353535</color>
+    <color name="black">#000000</color>
+
+    <color name="tab_filter_color">#888888</color>
+
+    <color name="dark_yellow">#e0a808</color>
+
+    <color name="calendar_text_highlighted">@color/white</color>
+    <color name="calendar_highlighted_day_bg">@color/yellow_accent</color>
+    <color name="calendar_selected_day_bg">@color/yellow_accent</color>
+    <color name="calendar_selected_range_bg">@color/yellow_accent</color>
+
+    <color name="transparent">#01000000</color>
+
+    <color name="google">#f24033</color>
+    <color name="facebook">#3b5a9a</color>
+    <color name="twitter">#1da1f3</color>
+
+    <color name="light_blue">#eef2fb</color>
+
+    <color name="action_bar">@color/very_dark_gray</color>
+    <color name="tab_default">@color/very_dark_gray</color>
+
+    <color name="error_text_color">@color/strong_red</color>
+
+    <color name="status_ok_color">@color/strong_green</color>
+    <color name="view_booking_color">@color/strong_blue</color>
+    <color name="status_cancel_color">@color/red_maroon</color>
+
+    <color name="divider_home_color">@color/dark_yellow</color>
+
+    <color name="category_car_background">#2b2b2b</color>
+
+    <color name="shuttle_group_container">@color/yellow_banana</color>
+
+    <color name="earning_header_text_color">@color/dark_green</color>
+    <color name="background_search_deals">@color/light_blue</color>
+
+    <color name="notif_header_text">@color/status_green</color>
+    <color name="background_deals_detail">@color/white_smoke</color>
+
+</resources>

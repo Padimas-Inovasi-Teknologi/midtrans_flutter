@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="Theme.NeedMobile.Base" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/action_bar</item>
+        <item name="colorPrimaryDark">@color/status_bar</item>
+        <item name="colorAccent">@color/status_bar</item>
+
+        <item name="android:textColor">@color/normal_text</item>
+        <item name="android:textColorPrimary">@color/normal_text_strong</item>
+        <item name="android:textColorSecondary">@color/normal_text</item>
+        <item name="android:textColorTertiary">@color/normal_text_tertier</item>
+         
+        <item name="android:contentDescription">@null</item>
+
+        <item name="android:textColorHint">@color/hint_text</item>
+
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="colorControlNormal">@color/normal_text_tertier</item>
+        <item name="colorControlActivated">@color/yellow_accent</item>
+        <item name="colorControlHighlight">@color/yellow_accent</item>
+        <item name="colorError">@color/error_text_color</item>
+    </style>
+
+    <style name="Theme.NeedMobile.Base.NoActionBar" parent="Theme.NeedMobile.Base">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

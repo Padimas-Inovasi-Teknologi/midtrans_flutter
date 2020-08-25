@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - midtransflutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - midtransflutter (from `.symlinks/plugins/midtransflutter/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  midtransflutter:
+    :path: ".symlinks/plugins/midtransflutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  midtransflutter: f9a2bdb22f9e9416e97e0cbd9b80d8ff88d2ac06
+
+PODFILE CHECKSUM: d6ba2a5de3c2746b0e6a5e94b9901b439c79e9c8
+
+COCOAPODS: 1.9.1
