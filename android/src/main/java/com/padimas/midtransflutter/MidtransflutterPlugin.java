@@ -128,12 +128,12 @@ public class MidtransflutterPlugin implements FlutterPlugin, MethodCallHandler {
 
       @Override
       public void onFailure(TokenDetailsResponse tokenDetailsResponse, String errorMessage) {
-        result.error("Error: " + errorMessage, "", "");
+        result.error("Error: " + errorMessage, ""+ errorMessage, "");
       }
 
       @Override
       public void onError(Throwable throwable) {
-        result.error("Error: " + throwable.getMessage(), "", "");
+        result.error("Error: " + throwable.getMessage(), ""+ throwable.getMessage(), "");
       }
     });
   }
