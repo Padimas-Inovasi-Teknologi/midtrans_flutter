@@ -1,5 +1,6 @@
 import Flutter
 import UIKit
+import MidtransCoreKit
 
 private class MidtransConfiguration {
     var production: Bool = false
