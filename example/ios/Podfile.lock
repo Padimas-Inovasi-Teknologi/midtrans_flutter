@@ -1,11 +1,17 @@
 PODS:
   - Flutter (1.0.0)
+  - MidtransCoreKit (1.17.0)
   - midtransflutter (0.0.1):
     - Flutter
+    - MidtransCoreKit (~> 1.17.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - midtransflutter (from `.symlinks/plugins/midtransflutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MidtransCoreKit
 
 EXTERNAL SOURCES:
   Flutter:
@@ -15,7 +21,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  midtransflutter: f9a2bdb22f9e9416e97e0cbd9b80d8ff88d2ac06
+  MidtransCoreKit: 150c0ede016a598d8010e2ac0357b970bb3c28db
+  midtransflutter: c255eb9b604cb66b4677706cb5e77ed84bf28edf
 
 PODFILE CHECKSUM: d6ba2a5de3c2746b0e6a5e94b9901b439c79e9c8
 
