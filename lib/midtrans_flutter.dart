@@ -7,10 +7,10 @@ class MidtransFlutter {
       const MethodChannel('midtransflutter');
 
   static Future<bool> configure({
-    String clientKey,
+    String? clientKey,
     bool isProduction = false
   }) async {
-    final String result = await _channel.invokeMethod('configure', {
+    final String? result = await _channel.invokeMethod('configure', {
       "clientKey": clientKey,
       "isProduction": isProduction
     });
@@ -21,12 +21,12 @@ class MidtransFlutter {
 
     return true;
   }
-  static Future<String> generateCreditCardToken({
-    String creditCardNumber,
-    int expiryMonth,
-    int expiryYear,
-    int cvv,
-    double amount,
+  static Future<String?> generateCreditCardToken({
+    String? creditCardNumber,
+    int? expiryMonth,
+    required int expiryYear,
+    required int cvv,
+    double? amount,
   }) async {
     assert(creditCardNumber != null && creditCardNumber.length == 16);
     assert(expiryMonth != null && expiryMonth >= 1 && expiryMonth <= 12);
@@ -34,7 +34,7 @@ class MidtransFlutter {
     assert(cvv != null);
     assert(amount != null && amount > 0.0 && amount <= 999999999);
 
-    String result;
+    String? result;
 
     try {
       result = await _channel.invokeMethod('generateCreditCardToken', {
@@ -45,10 +45,10 @@ class MidtransFlutter {
         "amount": amount
       });
     } catch (e) {
-      throw Exception(e.message); //handle android
+      throw Exception(e); //handle android
     }
 
-    if (result.indexOf("Token: ") == -1) {
+    if (result!.indexOf("Token: ") == -1) {
       throw Exception(result); // handle ios
     }
 
