@@ -18,7 +18,6 @@ rootProject.allprojects {
         jcenter()
         mavenCentral()
         // Add the midtrans repository into the list of repositories
-        maven { url "http://dl.bintray.com/pt-midtrans/maven" }
         maven { url "https://jitpack.io" }
     }
 }
